@@ -5,9 +5,6 @@ function rpsGame3() {
     midCol = "<div id='col2-1'>hi</div>";
 
     //displays number of wins
-    //h
-
-
     var cpuChoice = getCpuChoice();
     checkCPUGuess();
 
