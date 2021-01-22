@@ -1,0 +1,99 @@
+body header h1
+{
+    text-align: center;
+}
+
+img
+{
+    display: block;
+    float: left;
+}
+
+div#divHead h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(13, 21, 65);
+}
+
+section#game
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input.buttons, input.userButtons, input.userButtons2, input.userButtons3 {
+    display: inline-block;
+    font-size: 1em;
+    height: 200px;
+    width: 140px;
+    margin: 5px 10px;
+ 
+    border: 2px solid rgb(76, 188, 0);
+    border: 2px solid rgba(76, 188, 0, 0.7);
+    border-radius: 10px;
+ }
+
+ input#playAgain
+ {
+    width: 85px;
+    height: 30px;
+    border-radius: 15%;
+    color: white;
+    background-color: rgb(85, 110, 192);
+ }
+
+ input#playAgain:hover
+{
+    background-color: rgb(28, 78, 134);
+}
+
+input.userButtons:hover, input.userButtons2:hover, input.userButton3:hover
+{ 
+    border: 2px solid rgb(40, 75, 233);
+    border: 2px solid rgba(40, 61, 180, 0.7);
+}
+
+div#col1, div#col2
+{
+    display: block;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+div#col3
+{
+    display: block;
+    float: right;
+    width: 33%;
+    text-align: center;
+}
+
+div#bottom, div#score
+{
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+div#top1, div#top2, div#top3
+{
+    display: block;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+input.gameButtons
+{
+    width: 100px;
+    height: 45px;
+    border-radius: 20%;
+    color: white;
+    background-color: rgb(85, 110, 192);
+}
+
+input.gameButtons:hover
+{
+    background-color: rgb(28, 78, 134);
+}
